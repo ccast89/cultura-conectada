@@ -6,7 +6,7 @@ const contenidos = [
     descripcion:
       "Una de las obras más representativas del folklore argentino vinculadas a Tucumán. La canción evoca el paisaje, la noche y el sentimiento de pertenencia a la tierra tucumana.",
     autor: "Atahualpa Yupanqui",
-    imagen: "/images/luna-tucumana.jpg",
+    imagen: "/luna.webp",
     anio: 1949,
   },
   {
@@ -16,7 +16,7 @@ const contenidos = [
     descripcion:
       "Una reconocida composición de Atahualpa Yupanqui que forma parte del repertorio tradicional del folklore argentino y está fuertemente vinculada a los paisajes y sonidos del noroeste.",
     autor: "Atahualpa Yupanqui",
-    imagen: "/images/zamba-del-grillo.jpg",
+    imagen: "/grillo.webp",
     anio: 1960,
   },
   {
@@ -26,7 +26,7 @@ const contenidos = [
     descripcion:
       "Canción relacionada con el repertorio tucumano de Mercedes Sosa y con la identidad musical del noroeste argentino. La obra forma parte de las interpretaciones que ayudaron a difundir la cultura de la región.",
     autor: "Mercedes Sosa",
-    imagen: "/images/romance-luna-tucumana.jpg",
+    imagen: "/mercedes.webp",
     anio: 2003,
   },
   {
@@ -36,7 +36,7 @@ const contenidos = [
     descripcion:
       "Una de las chacareras más emblemáticas de Santiago del Estero. La canción expresa la nostalgia por la tierra natal y el profundo vínculo con las tradiciones santiagueñas.",
     autor: "Julio Argentino Jerez",
-    imagen: "/images/anoranzas.jpg",
+    imagen: "/anoranzas.webp",
     anio: 1916,
   },
   {
@@ -46,7 +46,7 @@ const contenidos = [
     descripcion:
       "Una de las obras más tradicionales del folklore salteño y popularmente considerada un himno de Salta. Su música fue compuesta por el músico salteño Artidorio Cresseri.",
     autor: "Artidorio Cresseri",
-    imagen: "/images/la-lopez-pereyra.jpg",
+    imagen: "/lopez.webp",
     anio: 1901,
   },
   {
@@ -56,7 +56,7 @@ const contenidos = [
     descripcion:
       "Una reconocida zamba del cancionero folklórico argentino, vinculada al paisaje y la tradición musical del noroeste argentino.",
     autor: "Eduardo Falú",
-    imagen: "/images/zamba-de-la-candelaria.jpg",
+    imagen: "/candelaria.webp",
     anio: 1960,
   },
   {
@@ -66,7 +66,7 @@ const contenidos = [
     descripcion:
       "Película filmada en El Mollar, Tucumán, que retrata historias y personajes vinculados con el paisaje y la identidad de los Valles Calchaquíes.",
     autor: "Cine tucumano",
-    imagen: "/images/muna-muna.jpg",
+    imagen: "/muna.webp",
     anio: 2025,
   },
   {
@@ -76,7 +76,7 @@ const contenidos = [
     descripcion:
       "Producción audiovisual tucumana que combina drama e identidad local y forma parte del catálogo de la plataforma Cine Tucumano.",
     autor: "Producción tucumana",
-    imagen: "/images/la-ausencia-de-juana.jpg",
+    imagen: "/juana.webp",
     anio: 2024,
   },
   {
@@ -86,7 +86,7 @@ const contenidos = [
     descripcion:
       "Película vinculada con la producción audiovisual de Tucumán que aborda historias y experiencias relacionadas con la región.",
     autor: "Producción tucumana",
-    imagen: "/images/las-cosas-ciertas.jpg",
+    imagen: "/cosas.webp",
     anio: 2024,
   },
   {
@@ -96,7 +96,7 @@ const contenidos = [
     descripcion:
       "Producción documental que registra paisajes, costumbres y aspectos de la vida de Amaicha del Valle, una comunidad emblemática de Tucumán.",
     autor: "Producción audiovisual tucumana",
-    imagen: "/images/amaicha.jpg",
+    imagen: "/amaicha.webp",
     anio: 2023,
   },
   {
@@ -106,7 +106,7 @@ const contenidos = [
     descripcion:
       "Largometraje de producción tucumana que forma parte del desarrollo de la industria audiovisual de la provincia.",
     autor: "Martín Falci",
-    imagen: "/images/la-hermandad.jpg",
+    imagen: "/hermandad.webp",
     anio: 2025,
   },
   {
@@ -116,7 +116,7 @@ const contenidos = [
     descripcion:
       "Obra audiovisual que propone una mirada cinematográfica sobre la ciudad de San Miguel de Tucumán y su identidad urbana.",
     autor: "Producción tucumana",
-    imagen: "/images/tucuman-sinfonia.jpg",
+    imagen: "/sinfonia.webp",
     anio: 2024,
   },
   {
@@ -126,7 +126,7 @@ const contenidos = [
     descripcion:
       "Obra digital inspirada en el paisaje de Tafí del Valle. Utiliza registros del paisaje tucumano para crear una composición audiovisual en movimiento.",
     autor: "Marto",
-    imagen: "/images/piedras.jpg",
+    imagen: "/piedras.webp",
     anio: 2026,
   },
   {
@@ -136,7 +136,7 @@ const contenidos = [
     descripcion:
       "Obra audiovisual digital inspirada en el paisaje nocturno latinoamericano y relacionada con la tradición artística del NOA.",
     autor: "Bombita",
-    imagen: "/images/long-latin-american-night.jpg",
+    imagen: "/long.webp",
     anio: 2026,
   },
   {
@@ -146,7 +146,7 @@ const contenidos = [
     descripcion:
       "Obra digital que explora la relación entre materialidad, espacio y representación mediante recursos tecnológicos.",
     autor: "Neol",
-    imagen: "/images/afantasia.jpg",
+    imagen: "/afantasia.webp",
     anio: 2026,
   },
   {
@@ -156,7 +156,7 @@ const contenidos = [
     descripcion:
       "Obra generativa desarrollada mediante código y entornos tridimensionales. La interacción del usuario modifica la experiencia visual.",
     autor: "4ngeles fr4nco",
-    imagen: "/images/brokers.jpg",
+    imagen: "/brokers.webp",
     anio: 2026,
   },
   {
@@ -166,7 +166,7 @@ const contenidos = [
     descripcion:
       "Obra perteneciente al patrimonio artístico tucumano que propone una mirada sobre la identidad y la relación con el territorio.",
     autor: "Pierina Illuminato",
-    imagen: "/images/siempre-te-veo-en-tucuman.jpg",
+    imagen: "/siempre.webp",
     anio: 2016,
   },
   {
@@ -176,7 +176,7 @@ const contenidos = [
     descripcion:
       "Propuesta artística que trabaja la relación entre paisaje, territorio y representación desde una mirada contemporánea.",
     autor: "Eduardo Joaquín",
-    imagen: "/images/mirador-mirante.jpg",
+    imagen: "/mirador.webp",
     anio: 2016,
   },
   {
@@ -186,7 +186,7 @@ const contenidos = [
     descripcion:
       "Proyecto de videojuego educativo que busca vincular a la comunidad con el patrimonio artístico tucumano a través del arte y la música local.",
     autor: "Mariana Barcellone",
-    imagen: "/images/retrato-de-identidad.jpg",
+    imagen: "/retrato.webp",
     anio: 2025,
   },
   {
@@ -196,7 +196,7 @@ const contenidos = [
     descripcion:
       "Producción audiovisual experimental vinculada al ecosistema creativo tucumano y a las nuevas formas de narración digital.",
     autor: "Producción tucumana",
-    imagen: "/images/dirty-kommie-toys.jpg",
+    imagen: "/kommie.webp",
     anio: 2024,
   },
   {
@@ -206,7 +206,7 @@ const contenidos = [
     descripcion:
       "Propuesta vinculada al universo de contenidos digitales y audiovisuales desarrollados en Tucumán.",
     autor: "Producción tucumana",
-    imagen: "/images/mi-mundito.jpg",
+    imagen: "/monster.webp",
     anio: 2024,
   },
   {
@@ -216,7 +216,7 @@ const contenidos = [
     descripcion:
       "Proyecto de entretenimiento digital asociado a la producción audiovisual y tecnológica de Tucumán.",
     autor: "Producción tucumana",
-    imagen: "/images/eureka.jpg",
+    imagen: "/eureka.webp",
     anio: 2024,
   },
   {
@@ -226,7 +226,7 @@ const contenidos = [
     descripcion:
       "Contenido inspirado en relatos y paisajes del noroeste argentino, con elementos de fantasía y tradición regional.",
     autor: "Producción tucumana",
-    imagen: "/images/laguna-del-tesoro.jpg",
+    imagen: "/leyenda.webp",
     anio: 2024,
   },
   {
@@ -236,7 +236,7 @@ const contenidos = [
     descripcion:
       "Propuesta interactiva orientada a la relación entre tecnología, educación y cuidado del patrimonio natural.",
     autor: "Producción regional",
-    imagen: "/images/guardianes-naturaleza.jpg",
+    imagen: "/guardianes.webp",
     anio: 2024,
   },
   {
@@ -246,7 +246,7 @@ const contenidos = [
     descripcion:
       "Obra fundamental del pensamiento y la literatura argentina, escrita por el tucumano Raúl Scalabrini Ortiz.",
     autor: "Raúl Scalabrini Ortiz",
-    imagen: "/images/el-hombre-que-esta-solo.jpg",
+    imagen: "/hombre.webp",
     anio: 1931,
   },
   {
@@ -256,8 +256,7 @@ const contenidos = [
     descripcion:
       "Obra vinculada con la literatura regional y la representación del paisaje y la identidad del noroeste argentino.",
     autor: "Alberto Córdoba",
-    imagen: "/images/la-tierra-natal.jpg",
-    anio: 1950,
+    imagen: "/tierra.webp",
   },
   {
     id: 27,
@@ -266,7 +265,7 @@ const contenidos = [
     descripcion:
       "Colección literaria publicada por TrascenderNOA que reúne una mirada poética a través del formato breve del haiku.",
     autor: "Autores regionales",
-    imagen: "/images/la-vida-en-haikus.jpg",
+    imagen: "/haiku.webp",
     anio: 2022,
   },
   {
@@ -276,7 +275,7 @@ const contenidos = [
     descripcion:
       "Propuesta literaria publicada por una editorial regional vinculada con la producción cultural del noroeste argentino.",
     autor: "Autores regionales",
-    imagen: "/images/poemas-en-el-tiempo.jpg",
+    imagen: "/poemas.webp",
     anio: 2022,
   },
   {
@@ -286,7 +285,7 @@ const contenidos = [
     descripcion:
       "Libro del cronista tucumano Miguel Velárdez que aborda las historias de trabajadores del norte que migran hacia la Patagonia.",
     autor: "Miguel Velárdez",
-    imagen: "/images/pisar-el-hielo-negro.jpg",
+    imagen: "/hielo.webp",
     anio: 2026,
   },
   {
@@ -296,7 +295,7 @@ const contenidos = [
     descripcion:
       "Obra publicada por TrascenderNOA, editorial vinculada con la difusión de autores y producciones literarias de la región.",
     autor: "Autores regionales",
-    imagen: "/images/el-sendero-de-los-inmortales.jpg",
+    imagen: "/sendero.webp",
     anio: 2022,
   },
   {
@@ -306,7 +305,7 @@ const contenidos = [
     descripcion:
       "Celebración ancestral vinculada a los pueblos originarios y a la relación con la Madre Tierra. En Tucumán tiene especial presencia en Amaicha del Valle.",
     autor: "Comunidad de Amaicha del Valle",
-    imagen: "/images/pachamama.jpg",
+    imagen: "/pachamama.webp",
     anio: 1970,
   },
   {
@@ -316,7 +315,7 @@ const contenidos = [
     descripcion:
       "Uno de los principales símbolos históricos y culturales de Tucumán. En este lugar se declaró la Independencia de las Provincias Unidas del Río de la Plata en 1816.",
     autor: "Patrimonio histórico nacional",
-    imagen: "/images/casa-historica.jpg",
+    imagen: "/historica.webp",
     anio: 1816,
   },
   {
@@ -326,7 +325,7 @@ const contenidos = [
     descripcion:
       "Importante sitio arqueológico de los Valles Calchaquíes que conserva parte del legado de los pueblos originarios que habitaron la región.",
     autor: "Pueblo Quilmes",
-    imagen: "/images/ruinas-quilmes.jpg",
+    imagen: "/quilmes.webp",
     anio: 800,
   },
   {
@@ -336,7 +335,7 @@ const contenidos = [
     descripcion:
       "Espacio cultural ubicado en Amaicha del Valle dedicado a preservar y difundir expresiones artísticas, históricas y culturales de los pueblos originarios y de los Valles Calchaquíes.",
     autor: "Héctor Cruz",
-    imagen: "/images/museo-pachamama.jpg",
+    imagen: "/museo.webp",
     anio: 1996,
   },
   {
@@ -346,7 +345,7 @@ const contenidos = [
     descripcion:
       "Celebración gastronómica y cultural que se realiza en Famaillá y que destaca a la empanada tucumana como uno de los símbolos culinarios de la provincia.",
     autor: "Municipalidad de Famaillá",
-    imagen: "/images/fiesta-empanada.jpg",
+    imagen: "/empanada.webp",
     anio: 1979,
   },
   {
@@ -356,7 +355,7 @@ const contenidos = [
     descripcion:
       "Festival cultural y literario de Tucumán destinado a promover la lectura y visibilizar la producción literaria de la región.",
     autor: "Ente Cultural de Tucumán",
-    imagen: "/images/mayo-de-las-letras.jpg",
+    imagen: "/mayo.webp",
     anio: 2006,
   },
 ];

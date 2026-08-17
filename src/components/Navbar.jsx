@@ -1,5 +1,4 @@
 import { Link, NavLink } from "react-router";
-import logo from "../assets/logo.webp";
 
 const Navbar = () => {
   const listMenu = [
@@ -25,7 +24,7 @@ const Navbar = () => {
       <header>
         <nav>
           <Link to="/">
-            <img src={logo} alt="Logo de Cultura Conectada" />
+            <img src="/logo.webp" alt="Logo de Cultura Conectada" />
           </Link>
 
           <div>
