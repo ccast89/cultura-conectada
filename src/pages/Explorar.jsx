@@ -1,10 +1,18 @@
-import React from "react";
+import contenidos from "../data/contenidos";
+
+import Card from "../components/Card";
 
 const Explorar = () => {
   return (
-    <div>
+    <section>
       <h1>Explorar</h1>
-    </div>
+
+      <div>
+        {contenidos.map((contenido) => (
+          <Card key={contenido.id} contenido={contenido} />
+        ))}
+      </div>
+    </section>
   );
 };
 
