@@ -52,6 +52,23 @@ const Sobre = () => {
         permita descubrir artistas, obras, producciones, lugares y tradiciones
         vinculadas con Tucumán y el noroeste argentino.
       </p>
+      <h2>¿Qué es la cultura digital?</h2>
+
+      <p>
+        La cultura digital reúne nuevas formas de crear, compartir y consumir
+        contenidos culturales mediante tecnologías digitales. Incluye
+        expresiones como el arte digital, los videojuegos, las producciones
+        audiovisuales, las redes, las plataformas y otras formas de comunicación
+        y creación contemporánea.
+      </p>
+
+      <h2>Sobre este proyecto</h2>
+
+      <p>
+        Este proyecto fue desarrollado por Carla Castellano como parte de una
+        actividad integradora de React y React Router, pruesta por RollingCode
+        School.
+      </p>
     </section>
   );
 };

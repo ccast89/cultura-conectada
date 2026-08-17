@@ -1,10 +1,17 @@
-import React from "react";
+import { Link } from "react-router";
 
 const NotFound = () => {
   return (
-    <div>
-      <h1>Error</h1>
-    </div>
+    <section>
+      <h1>404 - Página no encontrada</h1>
+
+      <p>
+        Lo sentimos, la página que estás buscando no existe o no está
+        disponible.
+      </p>
+
+      <Link to="/">Volver al inicio</Link>
+    </section>
   );
 };
 
