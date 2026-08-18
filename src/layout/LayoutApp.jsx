@@ -6,7 +6,7 @@ const LayoutApp = () => {
   return (
     <>
       <Navbar />
-      <main>
+      <main className="bg-stone-100 text-stone-900 min-h-screen">
         <Outlet />
       </main>
       <Footer />
