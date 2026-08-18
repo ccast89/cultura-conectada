@@ -7,7 +7,7 @@ const Categorias = () => {
       imagen: "/musica.webp",
     },
     {
-      nombre: "Cine y/o series",
+      nombre: "Cine",
       imagen: "/cine.webp",
     },
     {

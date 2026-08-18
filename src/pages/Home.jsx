@@ -23,6 +23,7 @@ const Home = () => {
           Explorar contenidos
         </Link>
       </div>
+      <hr className="my-4 border-t border-gray-300" />
       <div className="py-8">
         <h2 className="text-2xl font-bold text-amber-900 mb-4">
           Descubrí nuestra cultura
@@ -38,6 +39,7 @@ const Home = () => {
           las personas, obras y expresiones que forman parte de esta identidad.
         </p>
       </div>
+      <hr className="my-4 border-t border-gray-300" />
       <div className="py-8">
         <h2 className="text-2xl font-bold text-amber-900 mb-4">
           Explorá por categorías
@@ -72,6 +74,7 @@ const Home = () => {
           Ver todas las categorías
         </Link>
       </div>
+      <hr className="my-4 border-t border-gray-300" />
       <div className="py-8">
         <h2 className="text-2xl font-bold text-amber-900 mb-4">
           Un recorrido por Tucumán y el NOA

@@ -28,7 +28,7 @@ const Detalle = () => {
         <div className="p-8 md:w-3/5">
           <h1 className="text-3xl font-bold text-amber-900 mb-4">{titulo}</h1>
 
-          <p className="text-stone-700 mb-6 leading-relaxed">{descripcion}</p>
+          <p className="text-stone-700 mb-6 text-justify">{descripcion}</p>
 
           <p className="text-stone-800 mb-2">
             <span className="font-semibold">Autor / Artista:</span> {autor}

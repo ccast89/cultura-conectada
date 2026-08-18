@@ -62,7 +62,7 @@ const contenidos = [
   {
     id: 7,
     titulo: "Muña Muña",
-    categoria: "Cine y/o series",
+    categoria: "Cine",
     descripcion:
       "Película filmada en El Mollar, Tucumán, que retrata historias y personajes vinculados con el paisaje y la identidad de los Valles Calchaquíes.",
     autor: "Cine tucumano",
@@ -72,7 +72,7 @@ const contenidos = [
   {
     id: 8,
     titulo: "La ausencia de Juana",
-    categoria: "Cine y/o series",
+    categoria: "Cine",
     descripcion:
       "Producción audiovisual tucumana que combina drama e identidad local y forma parte del catálogo de la plataforma Cine Tucumano.",
     autor: "Producción tucumana",
@@ -82,7 +82,7 @@ const contenidos = [
   {
     id: 9,
     titulo: "Las cosas ciertas",
-    categoria: "Cine y/o series",
+    categoria: "Cine",
     descripcion:
       "Película vinculada con la producción audiovisual de Tucumán que aborda historias y experiencias relacionadas con la región.",
     autor: "Producción tucumana",
@@ -92,7 +92,7 @@ const contenidos = [
   {
     id: 10,
     titulo: "Amaicha, imágenes de un pueblo",
-    categoria: "Cine y/o series",
+    categoria: "Cine",
     descripcion:
       "Producción documental que registra paisajes, costumbres y aspectos de la vida de Amaicha del Valle, una comunidad emblemática de Tucumán.",
     autor: "Producción audiovisual tucumana",
@@ -102,7 +102,7 @@ const contenidos = [
   {
     id: 11,
     titulo: "La hermandad",
-    categoria: "Cine y/o series",
+    categoria: "Cine",
     descripcion:
       "Largometraje de producción tucumana que forma parte del desarrollo de la industria audiovisual de la provincia.",
     autor: "Martín Falci",
@@ -112,7 +112,7 @@ const contenidos = [
   {
     id: 12,
     titulo: "Tucumán: Sinfonía de una Ciudad Escondida",
-    categoria: "Cine y/o series",
+    categoria: "Cine",
     descripcion:
       "Obra audiovisual que propone una mirada cinematográfica sobre la ciudad de San Miguel de Tucumán y su identidad urbana.",
     autor: "Producción tucumana",
@@ -275,7 +275,7 @@ const contenidos = [
     descripcion:
       "Propuesta literaria publicada por una editorial regional vinculada con la producción cultural del noroeste argentino.",
     autor: "Autores regionales",
-    imagen: "/poemas.webp",
+    imagen: "/poema.webp",
     anio: 2022,
   },
   {
