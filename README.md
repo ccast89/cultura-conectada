@@ -1,18 +1,58 @@
-# React + Vite
+# Cultura Conectada
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Cultura Conectada es una aplicación web desarrollada para explorar y difundir contenidos culturales de Tucumán y del noroeste argentino. Práctica propuesta por RollingCode School, como parte del curso de Web Development
 
-Currently, two official plugins are available:
+La plataforma reúne diferentes expresiones culturales, tradicionales y contemporáneas, organizadas en categorías como música, cine, arte digital, videojuegos, literatura y cultura local o regional.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tecnologías utilizadas
 
-## React Compiler
+- React
+- React Router
+- JavaScript
+- Tailwind CSS
+- Vite
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Funcionalidades
 
-Note: This will impact Vite dev & build performances.
+La aplicación permite:
 
-## Expanding the ESLint configuration
+- Explorar todos los contenidos culturales disponibles.
+- Visualizar los contenidos organizados por categorías.
+- Acceder a los contenidos de una categoría específica.
+- Ver información detallada de cada contenido.
+- Navegar entre las diferentes vistas sin recargar la página.
+- Identificar la sección activa desde el menú de navegación.
+- Mostrar una página de error cuando una ruta o contenido no existe.
+- Adaptar la visualización a diferentes tamaños de pantalla.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Rutas principales
+
+- `/` - Página de inicio.
+- `/explorar` - Muestra todos los contenidos.
+- `/categorias` - Muestra las categorías disponibles.
+- `/categoria/:categoria` - Muestra los contenidos de una categoría.
+- `/contenido/:id` - Muestra el detalle de un contenido.
+- `/sobre` - Información sobre Cultura Conectada.
+- `*` - Página no encontrada.
+
+## Instalación
+
+Para instalar las dependencias del proyecto:
+
+```bash
+npm install
+```
+
+## Ejecución
+
+Para ejecutar el proyecto en modo desarrollo:
+
+```bash
+npm run dev
+```
+
+Luego se puede acceder a la dirección local indicada por Vite en la terminal.
+
+## Autora
+
+Proyecto desarrollado por Carla E. Castellano Gómez como actividad integradora de React y React Router para RollingCode School.
