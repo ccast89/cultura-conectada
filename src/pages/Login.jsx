@@ -1,5 +1,6 @@
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router";
+import { Link } from "react-router";
 
 const Login = () => {
   const navigate = useNavigate();
@@ -28,6 +29,7 @@ const Login = () => {
               <label>Correo</label>
               <input
                 type="email"
+                placeholder="example@example.com"
                 className="border border-t border-rose-700 rounded-md px-2 py-1 outline-none focus:ring-1 ring-rose-900"
                 {...register("correo", {
                   required: "El campo es obligatorio",
@@ -45,6 +47,7 @@ const Login = () => {
               <label>Contraseña</label>
               <input
                 type="password"
+                placeholder="Ingresá tu contraseña"
                 className="border border-t border-rose-700 rounded-md px-2 py-1 outline-none focus:ring-1 ring-rose-900"
                 {...register("password", {
                   required: "Este campo es obligatorio",
@@ -67,7 +70,14 @@ const Login = () => {
             </div>
           </form>
         </section>
-        <footer></footer>
+        <footer>
+          <div>
+            <p>¿Todavía no tenés cuenta?</p>
+          </div>
+          <div>
+            <Link to="/register">Registrate aquí</Link>
+          </div>
+        </footer>
       </article>
     </div>
   );

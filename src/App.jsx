@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router";
 import AppRouter from "./routes/AppRouter";
 import Login from "./pages/Login";
 import ProtectedRoutes from "./routes/ProtectedRoutes";
+import Register from "./pages/Register";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           }
         />
         <Route path="login" element={<Login />} />
+        <Route path="register" element={<Register />} />
       </Routes>
     </BrowserRouter>
   );
