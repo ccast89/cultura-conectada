@@ -22,17 +22,17 @@ const Navbar = () => {
   return (
     <div>
       <header>
-        <nav className="bg-amber-900 flex justify-around items-center py-3 text-lg">
+        <nav className="bg-amber-900 flex flex-col md:flex-row justify-around items-center py-3 px-4 gap-4 text-base md:text-lg">
           <Link to="/">
             <img
               src="/logo.webp"
               alt="Logo de Cultura Conectada"
-              className="w-25 h-25 rounded-full object-cover"
+              className="w-20 h-20 md:w-25 md:h-25 rounded-full object-cover"
             />
           </Link>
 
           <div>
-            <ul className="flex gap-6">
+            <ul className="flex flex-wrap justify-center gap-4 md:gap-6">
               {listMenu.map((item, index) => (
                 <li key={index}>
                   <NavLink
