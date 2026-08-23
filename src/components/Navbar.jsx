@@ -1,22 +1,30 @@
 import { Link, NavLink } from "react-router";
+import { FaHome } from "react-icons/fa";
+import { IoSearch } from "react-icons/io5";
+import { BiCategory } from "react-icons/bi";
+import { FaCircleInfo } from "react-icons/fa6";
 
 const Navbar = () => {
   const listMenu = [
     {
       text: "Inicio",
       path: "/",
+      icono: <FaHome />,
     },
     {
       text: "Explorar",
       path: "/explorar",
+      icono: <IoSearch />,
     },
     {
       text: "Categorías",
       path: "/categorias",
+      icono: <BiCategory />,
     },
     {
       text: "Sobre el proyecto",
       path: "/sobre",
+      icono: <FaCircleInfo />,
     },
   ];
   return (
@@ -38,9 +46,12 @@ const Navbar = () => {
                   <NavLink
                     to={item.path}
                     className={({ isActive }) =>
-                      isActive ? "text-amber-200 underline" : "text-stone-100"
+                      isActive
+                        ? "text-amber-200 underline flex items-center gap-2"
+                        : "text-stone-100 flex items-center gap-2"
                     }
                   >
+                    {item.icono}
                     {item.text}
                   </NavLink>
                 </li>
