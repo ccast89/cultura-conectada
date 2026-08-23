@@ -1,6 +1,8 @@
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router";
 import { Link } from "react-router";
+import { IoIosMail } from "react-icons/io";
+import { RiLockPasswordFill } from "react-icons/ri";
 
 const Login = () => {
   const navigate = useNavigate();
@@ -45,7 +47,10 @@ const Login = () => {
             <section>
               <form onSubmit={handleSubmit(formSubmit)}>
                 <div className="flex flex-col mb-3">
-                  <label>Correo</label>
+                  <label className="flex items-center gap-2">
+                    <IoIosMail />
+                    Correo
+                  </label>
                   <input
                     type="email"
                     placeholder="example@example.com"
@@ -64,7 +69,11 @@ const Login = () => {
                   )}
                 </div>
                 <div className="flex flex-col mb-2">
-                  <label>Contraseña</label>
+                  <label className="flex items-center gap-2">
+                    {" "}
+                    <RiLockPasswordFill />
+                    Contraseña
+                  </label>
                   <input
                     type="password"
                     placeholder="Ingresá tu contraseña"
